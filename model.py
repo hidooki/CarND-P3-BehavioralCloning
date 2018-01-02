@@ -1,7 +1,6 @@
 from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
-import sys
 
 from keras.models import Sequential
 from keras.layers import Flatten, Dense, Lambda, Cropping2D, Dropout
@@ -49,8 +48,6 @@ def NVIDIA():
 
     return model
 
-
-sys.exit(0)
 
 model = NVIDIA()
 
